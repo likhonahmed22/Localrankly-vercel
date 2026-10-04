@@ -29,8 +29,8 @@ const pageMeta = {
     desc: 'Free Link Shortener, QR Code Generator, and SEO Audit tool. No sign-up required.'
   },
   blog: {
-    title: 'Local SEO Blog for Bangladesh Businesses — LocalRankly',
-    desc: 'Actionable local SEO tips, Google Maps ranking guides, and case studies for Dhaka businesses.'
+    title: 'Local SEO Blog for Dhaka Businesses: Google Maps Ranking Tips & Guides | LocalRankly',
+    desc: 'Learn how to rank higher on Google Maps in Dhaka with actionable local SEO tips, keyword research guides, citation building strategies, and Google Business Profile optimization tutorials for Bangladesh businesses.'
   },
   about: {
     title: 'About LocalRankly — Dhaka\'s #1 Local SEO Agency',
@@ -303,67 +303,79 @@ const portfolioCards = [
 const blogCards = [
   {
     icon: '🔑',
-    tag: 'Keyword Research',
-    title: 'Best Local Keywords for Dhaka Small Businesses in 2025',
+    tag: 'Local Keyword Research',
+    title: 'How to Find the Best Local Keywords for Dhaka Small Businesses in 2025',
     date: 'March 2025'
   },
   {
     icon: '⭐',
-    tag: 'Reviews',
-    title: 'How to Get More Google Reviews for Your Dhaka Business',
+    tag: 'Google Reviews Strategy',
+    title: 'How to Get More Google Reviews for Your Dhaka Business: Proven Strategies That Work',
     date: 'March 2025'
   },
   {
     icon: '🏢',
-    tag: 'Google Business',
-    title: 'Google Business Profile Optimization Checklist 2025',
+    tag: 'Google Business Profile',
+    title: 'Google Business Profile Optimization Checklist 2025: Step-by-Step Guide for Bangladesh',
     date: 'Feb 2025'
   },
   {
     icon: '📊',
-    tag: 'Local SEO',
-    title: 'NAP Consistency: Why It\'s Critical for Bangladesh SEO',
+    tag: 'NAP Citations',
+    title: 'NAP Consistency for Bangladesh SEO: Why It Matters and How to Fix Inconsistent Citations',
     date: 'Feb 2025'
   },
   {
     icon: '🔗',
-    tag: 'Link Building',
-    title: 'Local Link Building Strategies for Dhaka Businesses',
+    tag: 'Local Link Building',
+    title: 'Local Link Building Strategies for Dhaka Businesses: How to Earn Backlinks from Bangladeshi Sites',
     date: 'Jan 2025'
   },
   {
     icon: '📱',
-    tag: 'Mobile SEO',
-    title: 'Mobile-First SEO: What Dhaka Businesses Need to Know',
+    tag: 'Mobile SEO Bangladesh',
+    title: 'Mobile-First SEO for Dhaka Businesses: How to Optimize for Mobile Search in Bangladesh',
     date: 'Jan 2025'
   }
 ]
 
 const tocItems = [
-  'What is Local SEO?',
-  'Google Business Profile Setup',
-  'Keyword Research for Dhaka',
-  'Citation Building',
-  'Getting Google Reviews',
-  'Tracking Your Rankings'
+  'What is Local SEO for Dhaka Businesses?',
+  'Google Business Profile Setup & Optimization',
+  'Local Keyword Research for Dhaka',
+  'Building Local Citations & NAP Consistency',
+  'Getting Google Reviews in Bangladesh',
+  'Tracking Your Local Search Rankings'
 ]
 
 const recentPosts = [
-  { icon: '🔑', title: 'Best Local Keywords for Dhaka SMBs', date: 'March 2025' },
-  { icon: '⭐', title: 'How to Get More Google Reviews', date: 'March 2025' },
-  { icon: '🏢', title: 'GBP Optimization Checklist 2025', date: 'Feb 2025' }
+  { icon: '🔑', title: 'Best Local Keywords for Dhaka Small Businesses', date: 'March 2025' },
+  { icon: '⭐', title: 'How to Get More Google Reviews in Bangladesh', date: 'March 2025' },
+  { icon: '🏢', title: 'Google Business Profile Optimization Checklist', date: 'Feb 2025' }
 ]
 
-const tags = ['Google Maps','Local SEO','Dhaka','GBP','Reviews','Keywords','Citations','Bangladesh','Link Building']
+const tags = ['Google Maps SEO','Local SEO Dhaka','Google Business Profile','Local Keyword Research','NAP Citations Bangladesh','Google Reviews Strategy','Local Link Building Dhaka','Mobile SEO Bangladesh','Dhaka Local Search','Google Maps Ranking','Bangladesh SEO','Citation Building']
 
 const blogFaq = [
   {
-    question: 'How long does it take to rank #1 on Google Maps in Dhaka?',
-    answer: 'On average, 2-4 months for low-competition niches, 4-8 months for competitive niches like restaurants, dentists, and lawyers in central Dhaka.'
+    question: 'How long does it take to rank #1 on Google Maps in Dhaka, Bangladesh?',
+    answer: 'On average, 2-4 months for low-competition local keywords in Dhaka, and 4-8 months for competitive niches like restaurants in Gulshan, dentists in Dhanmondi, or lawyers in central Dhaka. Consistent Google Business Profile optimization, NAP citation building, and Google review generation accelerate your Google Maps ranking significantly.'
   },
   {
-    question: 'Is Google Business Profile free?',
-    answer: 'Yes. Creating and managing a Google Business Profile is completely free. You only need a Google account and a verified business address.'
+    question: 'Is Google Business Profile free for Bangladesh businesses?',
+    answer: 'Yes. Creating and managing a Google Business Profile is completely free for any business in Bangladesh. You only need a Google account and a verified business address. LocalRankly can help you set up and optimize your GBP at no cost during your free SEO audit.'
+  },
+  {
+    question: 'What are the best local SEO keywords for Dhaka small businesses?',
+    answer: 'The best local SEO keywords for Dhaka businesses are long-tail, location-based phrases like "best dentist in Dhanmondi Dhaka", "restaurant near Mirpur 10", or "lawyer in Gulshan Bangladesh". Use Google Keyword Planner and Google Maps autocomplete to find local keywords with high buyer intent and lower competition in your specific Dhaka neighborhood.'
+  },
+  {
+    question: 'How do I get more Google reviews for my business in Bangladesh?',
+    answer: 'The most effective ways to get Google reviews in Bangladesh are: (1) send a direct Google review link via WhatsApp or SMS right after a customer visit, (2) display a QR code to your review page at your business location, (3) ask satisfied customers in person, and (4) follow up via email. Aim for 50+ reviews with a 4.5+ star rating to boost your Google Maps ranking.'
+  },
+  {
+    question: 'What is NAP consistency and why does it matter for local SEO in Bangladesh?',
+    answer: 'NAP consistency means your business Name, Address, and Phone number are identical across all online directories, your website, and your Google Business Profile. Inconsistent NAP confuses Google and hurts your local search rankings in Dhaka. Fix NAP inconsistencies across Bangladesh business directories to improve your local SEO authority.'
   }
 ]
 
@@ -451,6 +463,54 @@ export default function App() {
       if (meta) meta.content = page.desc
     }
   }, [activePage])
+
+  useEffect(() => {
+    const existing = document.getElementById('blog-schema')
+    if (activePage !== 'blog') {
+      if (existing) existing.remove()
+      return
+    }
+    const schema = blogPostOpen
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'BlogPosting',
+          headline: defaultBlogIntro.title,
+          description: 'Complete guide to ranking #1 on Google Maps in Dhaka, Bangladesh with local SEO strategies including Google Business Profile optimization, keyword research, NAP citations, and Google reviews.',
+          author: { '@type': 'Organization', name: 'LocalRankly' },
+          publisher: {
+            '@type': 'Organization',
+            name: 'LocalRankly',
+            url: 'https://localrankly.com'
+          },
+          datePublished: '2025-04-01',
+          dateModified: '2025-04-01',
+          keywords: 'local seo dhaka, google maps ranking bangladesh, google business profile optimization, local keyword research dhaka, NAP citations bangladesh, google reviews dhaka, local seo guide bangladesh',
+          mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://localrankly.com/blog' }
+        }
+      : {
+          '@context': 'https://schema.org',
+          '@type': 'Blog',
+          name: 'LocalRankly Blog — Local SEO for Dhaka Businesses',
+          description: 'Local SEO tips, Google Maps ranking guides, and keyword research strategies for Dhaka and Bangladesh businesses.',
+          url: 'https://localrankly.com/blog',
+          publisher: { '@type': 'Organization', name: 'LocalRankly', url: 'https://localrankly.com' },
+          blogPost: blogCards.map((post) => ({
+            '@type': 'BlogPosting',
+            headline: post.title,
+            keywords: post.tag,
+            datePublished: '2025-01-01'
+          }))
+        }
+    if (existing) {
+      existing.textContent = JSON.stringify(schema)
+    } else {
+      const script = document.createElement('script')
+      script.id = 'blog-schema'
+      script.type = 'application/ld+json'
+      script.textContent = JSON.stringify(schema)
+      document.head.appendChild(script)
+    }
+  }, [activePage, blogPostOpen])
 
   useEffect(() => {
     const handleScroll = () => setPageScrolled(window.scrollY > 10)
@@ -544,7 +604,7 @@ export default function App() {
   }
 
   const defaultBlogIntro = {
-    title: 'How to Rank #1 on Google Maps in Dhaka, Bangladesh (2025 Complete Guide)',
+    title: 'How to Rank #1 on Google Maps in Dhaka, Bangladesh: 2025 Complete Local SEO Guide',
     tag: 'Google Maps SEO',
     author: 'LocalRankly Team',
     date: 'April 2025',
@@ -1047,8 +1107,8 @@ export default function App() {
           <section className="blog-hero">
             <div className="container">
               <div className="eyebrow">The LocalRankly Blog</div>
-              <h1>Local SEO Tips & Strategies<br />for Bangladesh Businesses</h1>
-              <p>Actionable guides, case studies, and tutorials to help you rank higher on Google — written by our expert team.</p>
+              <h1>Local SEO Tips & Google Maps Ranking Guides<br />for Dhaka Businesses</h1>
+              <p>Learn how to rank higher on Google Maps and local search in Dhaka with actionable SEO tips, local keyword research guides, citation building strategies, and Google Business Profile optimization tutorials — written by Bangladesh's local SEO experts.</p>
             </div>
           </section>
           <div className="container">
@@ -1064,19 +1124,26 @@ export default function App() {
                     <span>⏱ {defaultBlogIntro.readingTime}</span>
                   </div>
                   <div style={{ background: 'var(--gray-50)', borderRadius: 'var(--radius)', padding: 24, borderLeft: '4px solid var(--blue)', marginBottom: 32 }}>
-                    <strong>Quick Summary:</strong> To rank #1 on Google Maps in Dhaka, you need to: (1) fully optimize your Google Business Profile, (2) build consistent NAP citations, (3) generate genuine reviews, and (4) create locally-relevant content. Read on for the full step-by-step breakdown.
+                    <strong>Quick Summary:</strong> To rank #1 on Google Maps in Dhaka, Bangladesh, you need to: (1) fully optimize your Google Business Profile with accurate NAP and photos, (2) research and target local long-tail keywords for your Dhaka neighborhood, (3) build consistent NAP citations across Bangladesh business directories, (4) generate genuine Google reviews from satisfied customers, and (5) track your local search rankings consistently. Read on for the full step-by-step local SEO breakdown.
                   </div>
-                  <h2 style={{ fontSize: 22, fontWeight: 700, margin: '28px 0 12px' }}>1. Optimize Your Google Business Profile</h2>
-                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Your Google Business Profile (GBP) is the single most important factor for Google Maps ranking. A complete and accurate profile tells Google exactly what your business does, where it operates, and who it serves.</p>
-                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Make sure every field is filled in: business name, address, phone number, website, hours, category (primary and secondary), photos, and description. Add at least 10 high-quality photos.</p>
-                  <h2 style={{ fontSize: 22, fontWeight: 700, margin: '28px 0 12px' }}>2. Build Local Citations</h2>
-                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Citations are mentions of your business name, address, and phone number (NAP) on other websites. Consistent citations across directories like Yellow Pages Bangladesh, Bangladesh Business Directory, and industry-specific sites significantly improve your local authority.</p>
-                  <h2 style={{ fontSize: 22, fontWeight: 700, margin: '28px 0 12px' }}>3. Get More Google Reviews</h2>
-                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Reviews are a major Google Maps ranking factor. Ask every satisfied customer to leave a review. Respond to all reviews — positive and negative — professionally and promptly. Aim for a 4.5+ star rating with 50+ reviews.</p>
+                  <h2 style={{ fontSize: 22, fontWeight: 700, margin: '28px 0 12px' }}>1. Optimize Your Google Business Profile for Dhaka Local Search</h2>
+                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Your Google Business Profile (GBP) is the single most important factor for Google Maps ranking in Dhaka. A complete and accurate profile tells Google exactly what your business does, where it operates in Bangladesh, and who it serves. Businesses that fully optimize their GBP are 2.7× more likely to appear in the Google Maps Local Pack.</p>
+                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Make sure every field is filled in: business name, address, phone number, website, hours, primary and secondary categories, photos, and a keyword-rich description. Add at least 10 high-quality photos of your business. Include your target local keywords (e.g., "best restaurant in Mirpur Dhaka") naturally in your GBP description.</p>
+                  <h2 style={{ fontSize: 22, fontWeight: 700, margin: '28px 0 12px' }}>2. Research Local Keywords for Your Dhaka Neighborhood</h2>
+                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Local keyword research is the foundation of any successful Dhaka local SEO strategy. Use Google Keyword Planner, Google Maps autocomplete, and Google Trends to find long-tail keywords that Dhaka customers actually search for — like "best dentist in Dhanmondi Dhaka" or "restaurant near Gulshan 2".</p>
+                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Focus on keyword clusters: location-based keywords (your Dhaka neighborhood), service-based keywords (what you offer), and intent-based keywords (best, near me, reviews). Long-tail keywords like "affordable SEO services in Dhaka Bangladesh" have lower competition and higher conversion rates than broad terms like "SEO Bangladesh".</p>
+                  <h2 style={{ fontSize: 22, fontWeight: 700, margin: '28px 0 12px' }}>3. Build Local Citations & Ensure NAP Consistency in Bangladesh</h2>
+                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Citations are mentions of your business name, address, and phone number (NAP) on other websites. Consistent NAP citations across Bangladesh directories like Yellow Pages Bangladesh, Bangladesh Business Directory, and industry-specific sites significantly improve your local search authority and Google Maps ranking.</p>
+                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Audit your existing citations and fix any NAP inconsistencies. Even small differences (like "Dhaka-1207" vs "Dhaka 1207") can confuse Google. Build citations on at least 30-50 relevant Bangladesh and global directories for maximum local SEO impact.</p>
+                  <h2 style={{ fontSize: 22, fontWeight: 700, margin: '28px 0 12px' }}>4. Get More Google Reviews from Dhaka Customers</h2>
+                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Google reviews are a major Google Maps ranking factor for Dhaka businesses. Ask every satisfied customer to leave a review. Respond to all reviews — positive and negative — professionally and promptly. Aim for a 4.5+ star rating with 50+ reviews to outrank competitors in your local area.</p>
                   <div style={{ background: 'var(--blue-light)', borderRadius: 'var(--radius)', padding: 24, margin: '28px 0' }}>
-                    <strong style={{ color: 'var(--blue)' }}>💡 Pro Tip:</strong> <span style={{ color: 'var(--gray-700)' }}>The fastest way to get Google reviews is to text your happy customers a direct link to your Google review page right after their visit or purchase.</span>
+                    <strong style={{ color: 'var(--blue)' }}>💡 Pro Tip:</strong> <span style={{ color: 'var(--gray-700)' }}>The fastest way to get Google reviews in Bangladesh is to send your happy customers a direct Google review link via WhatsApp or SMS right after their visit. Display a QR code to your review page at your business counter for walk-in customers.</span>
                   </div>
-                  <h2 style={{ fontSize: 22, fontWeight: 700, margin: '28px 0 12px' }}>Frequently Asked Questions</h2>
+                  <h2 style={{ fontSize: 22, fontWeight: 700, margin: '28px 0 12px' }}>5. Track Your Local Search Rankings Consistently</h2>
+                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Tracking your Google Maps and local search rankings is essential to measure your local SEO progress. Use tools like Google Search Console, Google Business Profile Insights, and rank tracking tools to monitor your positions for target keywords like "best [your service] in [your Dhaka area]".</p>
+                  <p style={{ color: 'var(--gray-600)', lineHeight: 1.8, marginBottom: 18 }}>Track metrics like Google Maps views, search impressions, direction requests, and phone call clicks. Review your rankings weekly and adjust your local SEO strategy based on what's working. Businesses that track and adapt consistently see 93% better results.</p>
+                  <h2 style={{ fontSize: 22, fontWeight: 700, margin: '28px 0 12px' }}>Frequently Asked Questions About Local SEO in Dhaka</h2>
                   <div className="faq-list" style={{ maxWidth: '100%' }}>
                     {blogFaq.map((item, index) => (
                       <div className={`faq-item${blogFaqOpen[index] ? ' open' : ''}`} key={item.question}>
@@ -1099,8 +1166,8 @@ export default function App() {
                     <div className="blog-feat-img">📍</div>
                     <div className="blog-feat-body">
                       <span className="blog-tag">Google Maps SEO</span>
-                      <h2 className="blog-title">How to Rank #1 on Google Maps in Dhaka, Bangladesh (2025 Complete Guide)</h2>
-                      <p className="blog-excerpt">Google Maps is the most powerful local search tool for Dhaka businesses. In this comprehensive guide, we walk through the exact steps we use to rank 100+ local businesses in the top 3 positions — including the strategies most SEO agencies won't tell you.</p>
+                      <h2 className="blog-title">How to Rank #1 on Google Maps in Dhaka, Bangladesh: 2025 Complete Local SEO Guide</h2>
+                      <p className="blog-excerpt">Google Maps is the most powerful local search tool for Dhaka businesses. In this comprehensive guide, learn the exact steps to rank your business in the top 3 of Google Maps — including Google Business Profile optimization, local keyword research for Dhaka, NAP citation building across Bangladesh directories, and Google review generation strategies that actually work.</p>
                       <div className="blog-meta">
                         <span>👤 LocalRankly Team</span>
                         <span>📅 April 2025</span>
